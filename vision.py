@@ -21,7 +21,7 @@ desired_height_pixels = int(desired_height_cm * cm_to_pixels)
 
 # Load the image
 try:
-    image = Image.open(r"C:\Users\conta\Doctor\DrST.jpg")  # Use your corrected path
+    image = Image.open(r"DrST.jpg")  # Use your corrected path
     # Resize the image to the desired height while maintaining aspect ratio
     original_width, original_height = image.size
     width = int(original_width * (desired_height_pixels / original_height))
